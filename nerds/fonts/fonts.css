@@ -1,0 +1,9 @@
+@font-face {
+	font-family: "robotomedium";
+	font-style: normal;
+	src: url (fonts/Roboto-Medium.ttf);
+}
+@font-face {
+	font-family: "roboto";
+	src: url (fonts/roboto.woff);
+}
