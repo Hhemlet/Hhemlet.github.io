@@ -134,12 +134,17 @@ h3 {
 	display: block;
 	width: 240px;
 	height: 124px;
-	background-image: url(images/sprite.jpg) no-repeat;
-	background-color: red;
+	background-image: url(../images/sprite.jpg);
 	margin-bottom: 27px;
 }
 .web {
 	background-position: 0px 0px
+}
+.app {
+	background-position: 0px -124px;
+}
+.present {
+	background-position: 0px -248px;
 }
 .btn-red {
 	background-color: #db575a;

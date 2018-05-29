@@ -1,7 +1,7 @@
 @font-face {
 	font-family: "robotomedium";
 	font-style: normal;
-	src: url (fonts/Roboto-Medium.ttf);
+	src: url (../fonts/robotomedium.woff);
 }
 @font-face {
 	font-family: "roboto";
