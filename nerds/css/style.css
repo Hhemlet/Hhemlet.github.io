@@ -1,3 +1,7 @@
+@font-face {
+	font-family: "robotomedium";
+	src: url (../fonts/robotomedium.woff2);
+}
 body {
 	width: 1200px;
 	margin: 0 auto;
