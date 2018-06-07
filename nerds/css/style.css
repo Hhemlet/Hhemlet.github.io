@@ -1,13 +1,10 @@
-@font-face {
-	font-family: "robotomedium";
-	src: url (../fonts/robotomedium.woff2);
-}
 body {
 	width: 1200px;
 	margin: 0 auto;
 	font-family: "roboto", "Arial", sans-serif ;
 	font-size: 16px;
 	line-height: 22px;
+	font-weight: 500;
 
 }
 h2 {
@@ -72,34 +69,26 @@ h3 {
 	margin-right: 45px;
 	text-decoration: none;
 	color: #000000;
+	font-weight: 500;
 }
 .top-nav a:hover {
 	color: #db575a;
 }
 .t-cart {
 	float: right;
-	position: relative;
 }
 .t-cart a {
 	text-decoration: none;
 	font-size: 14px;
     display: block;
     color: #000000;
-    padding-top: 61px;
+    padding-top: 58px;
     line-height: 16px;
-    padding-left: 35px;
+    font-weight: 500;
 }
-.t-cart::before {
-	content: "";
-	width: 15px;
-	height: 15px;
-	background-image: url(../images/basket.png);
-	position: absolute;
-	top: 60px;
-	left: 6px;
-}
-.t-cart:hover::before {
-	background-image:  url(../images/basket-hover.png)
+.icon-basket{
+	font-size: 16px;
+	margin-right: 10px;
 }
 .t-cart a:hover {
 	color: #db575a;
@@ -189,14 +178,15 @@ h3 {
 .desc {
 	border-top: 2px solid #eeeeee;
 	padding-top: 52px;
+	margin-bottom: 47px;
 }
 .desc-left {
-	width: 620px;
+	width: 600px;
 	float: left;
 }
 .desc-left h2 {
 	margin-top: 18px;
-	margin-bottom: 18px;
+	margin-bottom: 20px;
 }
 .desc-left p {
 	margin-bottom: 44px;
@@ -204,6 +194,25 @@ h3 {
 .desc-right {
 	width: 240px;
 	float: right;
+}
+.logo {
+	padding-left: 29px;
+	padding-top: 7px;
+	padding-bottom: 30px;
+	margin-bottom: 75px;
+	border-bottom: 2px solid #eeeeee;
+	position: relative;
+	z-index: -1;
+}
+.logo span {
+	display: block;
+	width: 113px;
+	text-align: center;
+	text-transform: uppercase;
+	position: absolute;
+	z-index: 1;
+	top: 109px;
+	left: 65px;
 }
 .list {
 	display: inline-block;
@@ -218,6 +227,29 @@ h3 {
 	padding: 0;
 	margin: 0;
 }
-.desc-marker li{
+.desc-marker li {
 	padding-bottom: 22px;
+}
+.partners {
+	border-top: 2px solid #eeeeee;
+}
+.partners  ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-size: 0;
+}
+.partners  li {
+	display: inline-block;
+	margin-right: 90px;
+}
+.partners  li:last-child {
+	display: inline-block;
+	margin-right: 0px;
+}
+.partners a{
+	display: block;
+	width: 220px;
+	height: 150px;
+	opacity: 0.2;
 }
