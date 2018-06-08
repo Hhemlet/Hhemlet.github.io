@@ -213,6 +213,7 @@ h3 {
 	z-index: 1;
 	top: 109px;
 	left: 65px;
+	background-color: #ffffff;
 }
 .list {
 	display: inline-block;
@@ -232,6 +233,7 @@ h3 {
 }
 .partners {
 	border-top: 2px solid #eeeeee;
+	border-bottom: 2px solid #eeeeee;
 }
 .partners  ul {
 	padding: 0;
@@ -240,16 +242,104 @@ h3 {
 	font-size: 0;
 }
 .partners  li {
-	display: inline-block;
-	margin-right: 90px;
+	float: left;
+	margin-right: 100px;
 }
 .partners  li:last-child {
-	display: inline-block;
 	margin-right: 0px;
 }
-.partners a{
+.partners a {
 	display: block;
 	width: 220px;
-	height: 150px;
+	height: 166px;
+	font-size: 0px;
 	opacity: 0.2;
+}
+.partners .glukhanko {
+	background: url(../images/glukhanko.png) no-repeat center;
+}
+.partners .htmlacademy {
+	background: url(../images/htmlacademy.png) no-repeat center;
+}
+.partners .borodinski {
+	background: url(../images/borodinski.png) no-repeat center;
+}
+.partners a:hover {
+	opacity: 1;
+}
+.map {
+	height: 415px;
+	margin-top: 85px;
+	background-image: url(../images/map.jpg);
+	position: relative;
+}
+.contacts {
+	width: 230px;
+	background-color: #ffffff;
+	padding-left: 20px;
+	padding-top: 13px;
+	position: absolute;
+	top: 88px;
+	left: 160px;
+}
+.contacts h3 {
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.contacts p {
+	color: #666666;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+.btn-contact {
+	background-color: #db575a;
+	padding-right: 55px;
+	padding-left: 55px;
+	margin-top: 10px;
+    margin-bottom: 25px;
+}
+.map::before {
+	content: "";
+	width: 231px;
+	height: 190px;
+	background-image: url(../images/pointer.png);
+	position: absolute;
+	top: 113px;
+	right: 131px;
+}
+.main-footer {
+	min-height: 216px;
+}
+.footer-social {
+	float: left;
+	margin-top: 77px;
+	width: 300px;
+}
+.footer-social  ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.footer-social li {
+	float: left;
+}
+.footer-social a {
+	display: block;
+	width: 62px;
+	height: 62px;
+	margin-right: 27px;
+	border-radius: 31px;
+	background-color: #eeeeee;
+	color: #ffffff;
+	font-size: 23px;
+	text-align: center;
+	line-height: 62px;
+}
+.footer-right {
+	float: right;
+	width: 560px;
+    padding-top: 45px;
+}
+.footer-right h2 {
+	margin-bottom: -4px;
 }
