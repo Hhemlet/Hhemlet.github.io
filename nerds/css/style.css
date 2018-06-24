@@ -74,6 +74,12 @@ h3 {
 .top-nav a:hover {
 	color: #db575a;
 }
+.active {
+	border-bottom: 2px solid #db575a;
+}
+.top-nav .press {
+	color: #a9a9a9;
+}
 .t-cart {
 	float: right;
 }
@@ -85,6 +91,7 @@ h3 {
     padding-top: 58px;
     line-height: 16px;
     font-weight: 500;
+    padding-bottom: 6px;
 }
 .icon-basket{
 	font-size: 16px;
@@ -92,6 +99,10 @@ h3 {
 }
 .t-cart a:hover {
 	color: #db575a;
+}
+.head-slider {
+	position: relative;
+	min-height: 300px;
 }
 .slider-content {
 	width: 400px;
@@ -122,6 +133,23 @@ h3 {
 	background-color: #db575a;
 	padding-right: 70px;
 	padding-left: 70px;
+}
+.slider-check {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 189px;
+    left: 405px;
+}
+.slider-check li {
+	display: inline-block;
+	font-size: 12px;
+	width: 10px;
+	height: 10px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	margin-right: 5px;
 }
 .works {
 	margin-bottom: 80px;
@@ -270,7 +298,6 @@ h3 {
 .map {
 	height: 415px;
 	margin-top: 85px;
-	background-image: url(../images/map.jpg);
 	position: relative;
 }
 .contacts {
@@ -335,6 +362,9 @@ h3 {
 	text-align: center;
 	line-height: 62px;
 }
+.footer-social a:hover {
+	background-color: #db575a;
+}
 .footer-right {
 	float: right;
 	width: 560px;
@@ -342,4 +372,24 @@ h3 {
 }
 .footer-right h2 {
 	margin-bottom: -4px;
+}
+.cat-main-header {
+	background: #eeeeee;
+	min-height: 328px;
+	margin-bottom: 80px;
+}
+.cat-welcome p {
+	font-size: 40px;
+	text-align: center;
+    text-transform: uppercase;
+    line-height: 48px;
+    margin-top: 58px;
+}
+.cat-form {
+	float: left;
+	width: 240px;
+}
+.catalog {
+	float: right;
+	width: 560px;
 }
