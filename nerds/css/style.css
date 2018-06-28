@@ -393,3 +393,58 @@ h3 {
 	float: right;
 	width: 560px;
 }
+.interval {
+	height: 80px;
+	border-radius: 3px;
+	background-color: #eeeeee;
+}
+.sorting-type {
+	float: left;
+}
+.sorting-type ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.sorting-type li {
+	display: inline-block;
+}
+
+.dir {
+	float: right;
+}
+.catalog-item {
+	width: 240px;
+	height: 270px;
+	display: inline-block;
+}
+.catalog-item:first-child {
+	margin-right: 80px;
+}
+.item-head {
+	height: 30px;
+	border-radius: 6px 6px 0 0;
+	background-color: #717171;
+	opacity: 0.1; 
+	position: relative;
+}
+.catalog-item:hover .item-head {
+	opacity: 1;
+}
+.browser {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 5px;
+    left: 10px;
+}
+.browser li {
+	display: inline-block;
+	font-size: 12px;
+	width: 10px;
+	height: 10px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	margin-right: 5px;
+}
