@@ -69,11 +69,11 @@ h2 {
 .top-nav a:hover {
 	color: #db575a;
 }
+.top-nav a:focus {
+	color: #a9a9a9;
+}
 .active {
 	border-bottom: 2px solid #db575a;
-}
-.top-nav .press {
-	color: #a9a9a9;
 }
 .t-cart {
 	float: right;
@@ -94,6 +94,9 @@ h2 {
 }
 .t-cart a:hover {
 	color: #db575a;
+}
+.t-cart a:focus {
+	color: #a9a9a9;
 }
 .head-slider {
 	position: relative;
@@ -188,15 +191,36 @@ h2 {
 	padding-right: 40px;
 	padding-left: 40px;
 }
+.btn-red:hover {
+	background-color: #ba4a4e;
+}
+.btn-red:focus {
+	background-color: #9d383b;
+	box-shadow: inset 0px 3px 0px 0px #863032;
+}
 .btn-green {
 	background-color: #71c978;
 	padding-right: 40px;
 	padding-left: 40px;
 }
+.btn-green:hover {
+	background-color: #5ba162;
+}
+.btn-green:focus {
+	background-color: #518f57;
+	box-shadow: inset 0px 3px 0px 0px #457a4a;
+}
 .btn-yellow {
 	background-color: #e4c755;
 	padding-right: 40px;
 	padding-left: 40px;
+}
+.btn-yellow:hover {
+	background-color: #caac3c;
+}
+.btn-yellow:focus {
+	background-color: #b59a34;
+	box-shadow: inset 0px 3px 0px 0px #9a832c;
 }
 .desc h4 {
 	font-size: 16px;
@@ -364,6 +388,9 @@ h2 {
 }
 .footer-social a:hover {
 	background-color: #db575a;
+}
+.footer-social a:focus {
+	background-color: #ba4a4e;
 }
 .footer-right {
 	float: right;
