@@ -286,6 +286,7 @@ h2 {
 .partners {
 	border-top: 2px solid #eeeeee;
 	border-bottom: 2px solid #eeeeee;
+	margin-bottom: 85px;
 }
 .partners  ul {
 	padding: 0;
@@ -321,7 +322,6 @@ h2 {
 }
 .map {
 	height: 415px;
-	margin-top: 85px;
 	position: relative;
 }
 .contacts {
@@ -425,7 +425,7 @@ h2 {
 	height: 80px;
 	border-radius: 4px;
 	background-color: #eeeeee;
-	margin-bottom: 14px;
+	margin-bottom: 12px;
 }
 .sorting {
 	margin-bottom: 16px;
@@ -469,7 +469,7 @@ h2 {
 	height: 270px;
 	display: inline-block;
 	position: relative;
-	margin-bottom: 80px;
+	margin-bottom: 79px;
 }
 .catalog-item:nth-of-type(odd) {
 	margin-right: 76px;
@@ -540,6 +540,9 @@ h2 {
 	color: #ffffff;
 	background-color: #db575a;
 }
+.view-btn {
+	margin-bottom: 80px;
+}
 .view-btn  ul{
 	padding: 0;
 	margin: 0;
@@ -606,8 +609,15 @@ h2 {
 	margin-top: 0px;
 	margin-bottom: 15px;
 }
+.filter p {
+	margin-top: 0px;
+	margin-bottom: 18px;
+}
+.filter-grid {
+	margin-bottom: 43px;
+}
 .btn-form {
-	display: block;width: 158px;
+	display: block;width: 156px;
 	line-height: 38px;
 	text-align: center;
 	background-color: #eeeeee;
@@ -616,4 +626,67 @@ h2 {
 	color: #000000;
 	border-radius: 3px;
 	font-size: 12px;
+	margin-top: 58px;
 }
+.filter-radio input[type="radio"] {
+	display: none;
+}
+.filter-radio {
+	position: relative;
+	cursor: pointer;
+	padding-left: 35px;
+}
+.filter-radio input[type="radio"] +
+	.radiobutton {
+		position: absolute;
+		top: -5px;
+		left: -5px;
+		font-size: 26px;
+	}
+.filter-radio input[type="radio"] +
+	.radiobutton .icon-circle-dot {
+		display: none;
+	}
+.filter-radio input[type="radio"]:checked +
+.radiobutton .icon-circle-dot {
+		font-size: 26px;
+		display: inline;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+.filter-radio input[type="radio"]:checked +
+.radiobutton .icon-circle {
+		display: none;
+	}
+.filter-checkbox input[type="checkbox"] {
+	display: none;
+}
+.filter-checkbox {
+	position: relative;
+	cursor: pointer;
+	padding-left: 35px;
+}
+.filter-checkbox input[type="checkbox"] +
+	.checkbox-indicator {
+		position: absolute;
+		top: -3px;
+		left: -6px;
+		font-size: 26px;
+	}
+.filter-checkbox input[type="checkbox"] +
+	.checkbox-indicator .icon-check-on {
+		display: none;
+	}
+.filter-checkbox input[type="checkbox"]:checked +
+.checkbox-indicator .icon-check-on {
+		font-size: 26px;
+		display: inline;
+		position: absolute;
+		top: 0px;
+		left: 2px;
+	}
+.filter-checkbox input[type="checkbox"]:checked +
+.checkbox-indicator .icon-check-off {
+		display: none;
+	}				
