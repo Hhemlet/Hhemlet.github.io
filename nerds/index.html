@@ -20,7 +20,7 @@
     		<li><a href="">Студия</a></li>
     		<li><a href="">Клиенты</a></li>
     		<li><a href="catalog.html">Магазин</a></li>
-    		<li><a class="press" href="">Контакты</a></li>
+    		<li><a href="">Контакты</a></li>
     	</ul>
     </nav>
     <div class="t-cart">
@@ -71,7 +71,7 @@
     </section>
     <div class="desc clearfix">
       <div class="desc-left">
-      	<h2>Мы&nbsp -&nbsp маленькая, но гордая<br>дизайн-студия из Краснодара.</h2>
+      	<h2>Мы - маленькая, но гордая<br>дизайн-студия из Краснодара.</h2>
       	<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.</p>
       	<h4>Выполняем заказы на разработку</h4>
       	<ul class="desc-marker">
@@ -125,5 +125,24 @@
       </div>
     </div>
   </footer>
+  <div class="modal-content">
+    <button class="modal-content-close" type="button">Закрыть</button>
+    <h3>Напишите нам</h3> 
+  </div>
+  <script type="text/javascript">
+    var link = document.querySelector(".btn-contact");
+    var writeform = document.querySelector(".modal-content")
+    var close = document.querySelector(".modal-content-close")
+    
+    link.addEventListener ("click", function(event){
+      event.preventDefault();
+      writeform.classList.add("modal-content-show");
+    });
+    
+    close.addEventListener ("click", function(event){
+      event.preventDefault();
+      writeform.classList.remove("modal-content-show");
+    });
+  </script>
 </body>
 </html>
