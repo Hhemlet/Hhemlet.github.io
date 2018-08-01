@@ -661,11 +661,11 @@ h2 {
 	text-align: center;
 	margin-left: 6px;
 	outline: none;
-	display: inline;
+	display: inline-block;
+	margin-right: -24em;
 }
 .price-interval input:first-child {
 	margin-right: 12px;
-	display: inline;
 }
 .filter h5 {
 	text-transform: uppercase;
