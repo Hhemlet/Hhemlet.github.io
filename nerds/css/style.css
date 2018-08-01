@@ -426,6 +426,70 @@ h2 {
 	border-radius: 4px;
 	background-color: #eeeeee;
 	margin-bottom: 12px;
+	position: relative;
+}
+.price-regulator-left {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	margin-top: -10px;
+	background-color: #ffffff;
+	color: #a9a9a9;
+	text-align: center;
+	box-shadow: 0px 2px 2px 0px #cfcfcf;
+}
+.price-regulator-right {
+	display: block;
+	position: absolute;
+	top: 50%;
+	right: 60px;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	margin-top: -10px;
+	background-color: #ffffff;
+	color: #a9a9a9;
+	text-align: center;
+	box-shadow: 0px 2px 2px 0px #cfcfcf;
+}
+.price-regulator-left::before,
+.price-regulator-right::after {
+	content: "";
+	width: 4px;
+	height: 4px;
+	border-radius: 2px;
+	position: absolute;
+	background-color: #a9a9a9;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: block;
+}
+.interval::before {
+	content: "";
+	width: 120px;
+	height: 2px;
+	top: 50%;
+	left: 40px;
+	margin-top: -1px;
+	position: absolute;
+	background-color: #72c978;
+	display: block;
+}
+.interval::after {
+	content: "";
+	width: 40px;
+	height: 2px;
+	top: 50%;
+	right: 20px;
+	margin-top: -1px;
+	position: absolute;
+	background-color: #d7dbdd;
+	display: block;
 }
 .sorting {
 	margin-bottom: 16px;
