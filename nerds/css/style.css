@@ -414,7 +414,6 @@ h2 {
 }
 .cat-form {
 	float: left;
-	width: 240px;
 }
 .catalog {
 	float: right;
@@ -427,6 +426,7 @@ h2 {
 	background-color: #eeeeee;
 	margin-bottom: 12px;
 	position: relative;
+	width: 240px;
 }
 .price-regulator-left {
 	display: block;
