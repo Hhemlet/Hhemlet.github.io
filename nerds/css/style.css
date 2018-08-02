@@ -666,6 +666,7 @@ h2 {
 	margin-right: 18px;
 	outline: none;
 	display: inline-block;
+	padding: 0px;
 }
 .price-interval input:last-child {
 	margin-left: 5px;
