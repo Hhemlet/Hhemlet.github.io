@@ -11,7 +11,7 @@ body h3 {
 	font-size: 25px;
     margin-bottom: 55px;
     padding-bottom: 30px;
-    padding-top: 40px;
+    padding-top: 85px;
     text-transform: uppercase;
     letter-spacing: 4px;
     border-bottom: 1px solid #8fafbe;
@@ -32,11 +32,11 @@ body h3 {
 	background-color:rgba(69, 200, 228, 0.8);
 	background-size: cover;
 	min-height: 720px;
-	margin-bottom: 80px;
+	margin-bottom: -40px;
 }
 .top-header {
 	width: 100%;
-	min-height: 83px;
+	min-height: 60px;
 	font-size: 14px;
 	text-transform: uppercase;
 	background-color:rgba(0, 0, 0, 0.65);
@@ -60,7 +60,7 @@ body h3 {
 }
 .top-nav a {
 	display: block;
-	padding-top: 25px;
+	padding-top: 15px;
 	margin-right: 45px;
 	text-decoration: none;
 	color: #ffffff;
@@ -175,6 +175,66 @@ body h3 {
 .contacts {
 	padding-bottom: 85px;
 	background-color:rgba(208, 243, 251, 0.2);
+}
+.form-wrapper {
+	float: right;
+	width: 50%;
+}
+.adds {
+	float: left;
+}
+.adds ul {
+	list-style: none;
+	padding-left: 0px;
+}
+.adds ul li {
+	padding-bottom: 20px;
+	font-size: 18px;
+}
+.main-form button {
+  border: none;
+  color: #fff;
+  line-height: 40px;
+  padding: 0 25px;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 10px;
+  background-color: #2d4e71;
+  float: right; 
+}
+.main-form button:hover {
+	 background-color: #0387ae;
+	}
+.form-group {
+  display: block;
+  margin-bottom: 20px; 
+}
+  .form-group .color_element {
+    font-weight: 700;
+    font-size: 16px; 
+}
+  .form-group .text-danger {
+    font-size: 11px;
+    margin-top: 5px;
+    display: block; 
+}
+    .form-group .text-danger ul,
+    .form-group .text-danger li {
+      margin: 0;
+      padding: 0;
+      list-style-type: none; 
+  }
+  .form-group input,
+  .form-group textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    line-height: 40px;
+    text-indent: 12px;
+    font-size: 12px;
+    background-color: transparent; 
 }
 .main-footer {
 	min-height: 60px;

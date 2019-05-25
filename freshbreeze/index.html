@@ -13,10 +13,10 @@
     <div class="container">
     <nav class="top-nav">
     	<ul>
-    		<li><a href="">О нас</a></li>
-    		<li><a href="">Стоимость услуг</a></li>
-    		<li><a href="">Наши партнеры</a></li>
-    		<li><a href="">Контакты</a></li>
+    		<li><a href="#about">О нас</a></li>
+    		<li><a href="#serviceprice">Стоимость услуг</a></li>
+    		<li><a href="#partnerslist">Наши партнеры</a></li>
+    		<li><a href="#companycontacts">Контакты</a></li>
     	</ul>
     </nav>
       </div>
@@ -29,7 +29,7 @@
       </div>
   </header>
   <main>
-    <section class="works clearfix container">
+    <section id="about" class="works clearfix container">
       <h3>О нас</h3>
       <div class="works-item">
         <span class="staff"></span>
@@ -47,7 +47,7 @@
         <p>У нас самые низкие цены в регионе на обслуживание систем вентиляции и дымоудаления.</p>
       </div>	
     </section>
-    <section class="price clearfix">
+    <section id="serviceprice" class="price clearfix">
       <div class="container">
       <h3>Стоимость услуг</h3>
       <table class="table-price">
@@ -141,7 +141,7 @@
       </table>
       </div>
     </section>
-    <section class="partners container clearfix">
+    <section id="partnerslist" class="partners container clearfix">
       <h3>Наши партнеры</h3>
       <ul>
       	<li>ООО УК «Жилищно-коммунальная организация», г. Таганрог </li>
@@ -154,9 +154,36 @@
       </ul>
       <img src="img/partners.jpg" width="440px">	
     </section>
-    <section class="contacts clearfix">
+    <section id="companycontacts" class="contacts clearfix">
       <div class="container">
       <h3>Контакты</h3>
+      <div class="form-wrapper">
+        <form action="http://formspree.io/agragregra@ya.ru" class="main-form" novalidate target="_blank" method="post">
+            <label class="form-group">
+              <span class="color_element">*</span> Ваше имя:
+              <input type="text" name="name" placeholder="Ваше имя" data-validation-required-message="Вы не ввели имя" required />
+              <span class="help-block text-danger"></span>
+            </label>
+            <label class="form-group">
+              <span class="color_element">*</span> Ваш E-mail:
+              <input type="email" name="email" placeholder="Ваш E-mail" data-validation-required-message="Не корректно введен E-mail" required />
+              <span class="help-block text-danger"></span>
+            </label>
+            <label class="form-group">
+              <span class="color_element">*</span> Ваше сообщение:
+              <textarea name="message" placeholder="Ваше сообщение" data-validation-required-message="Вы не ввели сообщение" required></textarea>
+              <span class="help-block text-danger"></span>
+            </label>
+            <button>Отправить</button>
+          </form>
+          </div>
+          <div class="adds">
+          <ul>
+            <li>Тел.: 8 (918) 512-6-300</li>
+            <li>E-mail: company@fresh-wind.pro</li>
+            <li>Адрес: г. Таганрог , 3-я Линия, 4 оф. 5 ;</li>
+          </ul>
+          </div>
       </div>
     </section>
   </main>
@@ -169,6 +196,7 @@
   </footer>
   <script src="libs/jquery/jquery-2.1.3.min.js"></script>
   <script src="libs/parallax/parallax.min.js"></script>
+  <script src="libs/scroll2id/PageScroll2id.min.js"></script>
   <script src="js/common.js"></script>
 </body>
 </html>
