@@ -4,7 +4,7 @@
 
 	});
 function heightDetect() {
-		$(".main_header").css("height", $(window).height());
+		$(".main-header").css("height", $(window).height());
 	};
 	heightDetect();
 	$(window).resize(function() {
