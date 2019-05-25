@@ -29,6 +29,7 @@ body h3 {
 }
 .main-header {
 	background-image: url(../img/bg_start.jpg);
+	background-color:rgba(69, 200, 228, 0.8);
 	background-size: cover;
 	min-height: 720px;
 	margin-bottom: 80px;
