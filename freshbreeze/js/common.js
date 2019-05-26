@@ -11,3 +11,5 @@ function heightDetect() {
 	$(window).resize(function() {
 		heightDetect();
 	});
+
+	$("input, select, textarea").jqBootstrapValidation();
