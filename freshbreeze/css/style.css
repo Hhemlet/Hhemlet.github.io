@@ -257,11 +257,11 @@ body h3 {
   	position: relative;
   	margin-left: 15px;
   	border-top-color: #2d4e71;
-  	transform: rotate(180deg) translate(0px, 0px);
-  	-webkit-transform: rotate(180deg) translate(0px, 0px);
-  	-moz-transform: rotate(180deg) translate(0px, 0px);
-  	-o-transform: rotate(180deg) translate(0px, 0px);
-  	-ms-transform: rotate(180deg) translate(0px, 0px) translate(0px, 0px);
+  	transform: rotate(180deg) translate(0px, -20px);
+  	-webkit-transform: rotate(180deg) translate(0px, -20px);
+  	-moz-transform: rotate(180deg) translate(0px, -20px);
+  	-o-transform: rotate(180deg) translate(0px, -20px);
+  	-ms-transform: rotate(180deg) translate(0px, -20px) translate(0px, -20px);
   	border-bottom: 0;
 }  
 .main-footer {
