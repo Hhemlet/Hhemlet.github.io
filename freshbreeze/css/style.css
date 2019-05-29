@@ -236,14 +236,41 @@ body h3 {
     font-size: 12px;
     background-color: transparent; 
 }
+#top {
+  bottom: 80px;
+  cursor: pointer;
+  display: none;
+  font-size: 0px;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background-color:rgba(0, 0, 0, 0.35);
+  position: fixed;
+  right: 60px;
+}
+.arrow::before {
+	content: "";
+	width: 0;
+  	height: 0;
+  	border: 15px solid transparent;
+  	display: inline-block;
+  	position: relative;
+  	margin-left: 15px;
+  	border-top-color: #2d4e71;
+  	transform: rotate(180deg) translate(0px, 0px);
+  	-webkit-transform: rotate(180deg) translate(0px, 0px);
+  	-moz-transform: rotate(180deg) translate(0px, 0px);
+  	-o-transform: rotate(180deg) translate(0px, 0px);
+  	-ms-transform: rotate(180deg) translate(0px, 0px) translate(0px, 0px);
+  	border-bottom: 0;
+}  
 .main-footer {
-	min-height: 60px;
+	line-height: 60px;
 	background-color: #2d4e71;
 	font-size: 16px;
 	letter-spacing: 2px;
 	font-weight: 400;
 	color: #ffffff;
-	padding-top: 35px;
 }
 .year {
 	float: right;
