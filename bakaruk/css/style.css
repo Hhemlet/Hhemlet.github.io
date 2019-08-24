@@ -1,0 +1,37 @@
+body {
+	margin: 0 auto;
+}
+header {
+	height: 100vh;
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.logo-circle {
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	width: 400px;
+	height: 400px;
+	border-radius: 200px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+h1 {
+	display: inline-block;
+    background: url(../img/logo.svg) no-repeat;
+    width: 709px;
+    height: 117px;
+    margin-left: -168px;
+    margin-top: 130px;
+    background-size: cover;
+}
+.logo-circle p {
+	color: #ffffff;
+    margin-left: 113px;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    font-family: "roboto", "Arial", sans-serif;
+}
