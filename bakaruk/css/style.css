@@ -26,6 +26,7 @@ h1 {
     margin-left: -168px;
     margin-top: 130px;
     background-size: cover;
+    font-size: 0px;
 }
 .logo-circle p {
 	font-size: 16px;
@@ -35,6 +36,24 @@ h1 {
     letter-spacing: 12px;
     font-family: "roboto", "Arial", sans-serif;
 }
+.social-top {
+	position: absolute;
+	bottom: 15%;
+	right: 0px;
+	width: 45px;
+	border-radius: 15px 0 0 15px;
+	background-color: #ffffff;
+}
+.social-top ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.social-top ul li {
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
 @media (max-width: 760px) {
 	.logo-circle {
 		width: 200px;
@@ -58,4 +77,15 @@ h1 {
 .portfolio {
 	height: 600px;
 	background: #000;
+	padding-top: 65px
+}
+h3 {
+	font-family: "roboto", "Arial", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 12px;
+	color: #ffffff;
+	padding-bottom: 25px;
 }
