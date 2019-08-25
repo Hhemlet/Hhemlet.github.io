@@ -28,11 +28,31 @@ h1 {
     background-size: cover;
 }
 .logo-circle p {
+	font-size: 16px;
 	color: #ffffff;
     margin-left: 113px;
     text-transform: uppercase;
     letter-spacing: 12px;
     font-family: "roboto", "Arial", sans-serif;
+}
+@media (max-width: 768px) {
+	.logo-circle {
+		width: 200px;
+		height: 200px;
+		border-radius: 100px;
+	}
+	h1 {
+		width: 315px;
+		height: 50px;
+		margin-top: 75px;
+    	margin-left: -60px;
+	}
+	.logo-circle p {
+		margin-left: 52px;
+		letter-spacing: 6px;
+		font-size: 10px;
+
+	}
 }
 .portfolio {
 	height: 600px;
