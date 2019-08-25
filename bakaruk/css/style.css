@@ -2,7 +2,6 @@ body {
 	margin: 0 auto;
 }
 header {
-	height: 105vh;
 	background-image: url(../img/bg.jpg);
 	background-size: cover;
 	background-position: center;
