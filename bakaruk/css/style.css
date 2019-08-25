@@ -70,8 +70,10 @@ h1 {
 		margin-left: 52px;
 		letter-spacing: 6px;
 		font-size: 10px;
-		margin-top: 0px;
-
+		margin-top: 15px;
+	}
+	.social-top {
+		bottom: 10%;
 	}
 }
 .portfolio {
