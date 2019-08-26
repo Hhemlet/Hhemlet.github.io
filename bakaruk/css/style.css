@@ -53,6 +53,9 @@ h1 {
     margin-top: 130px;
     background-size: cover;
     font-size: 0px;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
 }
 .logo-circle p {
 	font-size: 16px;
@@ -61,6 +64,9 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 12px;
     font-family: "roboto", "Arial", sans-serif;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
 }
 .social-top {
 	position: absolute;
@@ -79,7 +85,6 @@ h1 {
 	margin-top: 5px;
 	margin-left: 5px;
 }
-
 @media (max-width: 760px) {
 	.logo-circle {
 		width: 200px;
