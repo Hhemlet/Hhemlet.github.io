@@ -32,3 +32,15 @@ function parallax() {
 $(window).scroll(function() {
   parallax();
 });
+
+jQuery(window).scroll(function() {
+
+    if (jQuery(this).scrollTop()>10)
+     {
+      jQuery('.social-top').fadeOut();  
+     }
+    else
+     {
+      jQuery('.social-top').fadeIn();
+     }
+ });
