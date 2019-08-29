@@ -44,3 +44,27 @@ jQuery(window).scroll(function() {
       jQuery('.social-top').fadeIn();
      }
  });
+
+(function ($) {
+  $(window).on("load", function () {
+    var masonryGrid = $(".grid");
+    masonryGrid.imagesLoaded(function () {
+      masonryGrid.masonry({
+        itemSelector: ".grid-item",
+        percentPosition: true
+      });
+    });
+  });
+})(jQuery);
+
+var $grid = $('.grid').masonry({
+  // disable initial layout
+  initLayout: false,
+  //...
+});
+// bind event
+$grid.masonry( 'on', 'layoutComplete', function() {
+  console.log('layout is complete');
+});
+// trigger initial layout
+$grid.masonry();
