@@ -185,6 +185,10 @@ h3 {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
 }
+.mobile-hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
 @media (min-width: 480px) {
   .grid {
     display: flex;
