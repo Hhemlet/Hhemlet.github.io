@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width">
 	<title>Фотограф Антон Бакарюк</title>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-  	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   	<link rel="shortcut icon" href="img/icon.png" type="image/png">
   	<link rel="stylesheet" href="libs/animate/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -22,10 +22,10 @@
 	</div>
 		<div class="social-top">
 			<ul>
-				<li><a href="https://www.instagram.com/bakaruk/"><img src="img/instagram.svg" width="35" height="35"></a></li>
-				<li><a href=""><img src="img/vk.svg" width="35" height="35"></a></li>
-				<li><a href=""><img src="img/facebook.svg" width="35" height="35"></a></li>
-				<li><a href=""><img src="img/odnoklassniki.svg" width="35" height="35"></a></li>
+				<li><a href="https://www.instagram.com/bakaruk/"><img src="img/instagram.svg" alt="instagram" width="35" height="35"></a></li>
+				<li><a href=""><img src="img/vk.svg" alt="vk" width="35" height="35"></a></li>
+				<li><a href=""><img src="img/facebook.svg" alt="facebook" width="35" height="35"></a></li>
+				<li><a href=""><img src="img/odnoklassniki.svg" alt="odnoklassniki" width="35" height="35"></a></li>
 			</ul>
 		</div>
 	</header>
@@ -36,8 +36,8 @@
   <div class="container">
     <div class="row">
       <div class="grid">
-        <div class="grid-item">
-          <a class="grid-link" href="">
+        <div class="grid-item" data-hover="hover-on-menu">
+          <a class="grid-link" href="" data-hover="hover-on-link">
             <img class="grid-img" src="images/image-1.jpg" alt=""/>
           </a>
         </div>
@@ -113,6 +113,25 @@
 	</section>
 	<section class="about">
 		<h3>обо мне</h3>
+		<div class="about-wrap grid container">
+			<div class="grid-item about-item about-me">
+				<p>
+					Добрый день. Меня зовут Антон Бакарюк
+				</p>
+			</div>
+			<div class="grid-item my-photo"><img src="img/photo.jpg" alt="Мое фото" width="300"></div>
+			<div class="grid-item about-item contacts">
+			<ul class="about-social">
+				<li>г. Таганрог</li>
+				<li>тел.  +7 (951) 498 76 78</li>
+				<li>Подписывайтесь на мои социальные сети:</li>
+				<li><a href="https://www.instagram.com/bakaruk/"><img src="img/instagram.svg" alt="instagram" width="50" height="50">Инстаграм</a></li>
+				<li><a href=""><img src="img/vk.svg" alt="vk" width="50" height="50">ВКонтакте</a></li>
+				<li><a href=""><img src="img/facebook.svg" alt="facebook" width="50" height="50">Фейсбук</a></li>
+				<li><a href=""><img src="img/odnoklassniki.svg" alt="odnoklassniki" width="50" height="50">Одноклассники</a></li>
+			</ul>
+			</div>
+		</div>
 	</section>
 </main>
 <footer class="main-footer">
