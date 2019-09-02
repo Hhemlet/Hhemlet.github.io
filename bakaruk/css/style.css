@@ -219,6 +219,8 @@ h3 {
 .about-item  p {
 	padding-left: 20px;
 	padding-right: 20px;
+	margin-top: 0px;
+	line-height: 22px;
 }
 .my-photo {
 	margin-bottom: 20px;
