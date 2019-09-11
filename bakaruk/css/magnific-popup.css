@@ -158,7 +158,8 @@ button::-moz-focus-inner {
   top: 0;
   right: 0;
   color: #CCC;
-  font-size: 12px;
+  font-size: 10px;
+  font-family: "Montserrat", "Arial", sans-serif;
   line-height: 18px;
   white-space: nowrap; }
 
