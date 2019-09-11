@@ -457,7 +457,9 @@ h4 {
   display: block;
 }
 .gallery-img:hover {
+	-webkit-transform: scale(1.05);
 	transform: scale(1.05);
+	-webkit-transition: 400ms ease-in-out;
 	transition: transform 400ms ease-in-out;
 }
 .main-footer-inner {
