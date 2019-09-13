@@ -264,8 +264,11 @@ h4 {
 	text-align: center;
 }
 .more-photo ul a:hover {
-	opacity: 0.8;
-	transition: 0.2s;
+	opacity: 0.9;
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+	-webkit-transition: 200ms ease-in-out;
+	transition: transform 200ms ease-in-out;
 }
 .icon-photo {
 	display: block;
