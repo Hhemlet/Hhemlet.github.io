@@ -197,13 +197,14 @@ h3 {
 .grid-item a {
   display: block;
   padding: 5px;
+  cursor: context-menu;
 }
 .grid-item img {
   display: block;
   width: 100%;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  transition: .5s ease-in-out;
+  transition: .2s ease-in-out;
 }
 .grid-item a:hover img {
   -webkit-filter: grayscale(0%);
