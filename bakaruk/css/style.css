@@ -165,6 +165,7 @@ h1 {
 	background: #000000;
 	padding-top: 65px;
 	box-sizing: border-box;
+	padding-bottom: 40px;
 }
 h3 {
 	font-family: "Montserrat", "Arial", sans-serif;
@@ -226,7 +227,12 @@ h3 {
   .grid-item {
     width: 33.33333333333333%;
   }
-  }
+}
+@media (min-width: 1600px) {
+	.container {
+		min-width: 1600px;
+	}
+}
 .more-photo {
 	padding-top: 25px;
 	padding-bottom: 20px;
@@ -478,6 +484,16 @@ h4 {
 	margin: 0.5rem;
 	flex: 1 0 20rem;
 	overflow: hidden;
+}
+@media (min-width: 1024px) {
+	.gallery__item {
+		max-width: 33.3333333%;
+	}
+}
+@media (min-width: 1360px) {
+	.gallery__item {
+		max-width: 25%;
+	}
 }
 .gallery-img {
   width: 100%;
