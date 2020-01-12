@@ -103,15 +103,19 @@ body {
 	}
 }
 @media (min-width: 1024px) {
+	.top-bar {
+		width: 285px;
+	}
 	.logo {
 	background-image: url(../img/logo-desktop.svg);
 	width: 205px;
-	height: 56px;
-	margin-top: 55px; 
+	height: 60px;
+	margin-top: 55px;
 	}
 	.top-menu ul {
 		padding-right: 110px;
-		margin-top: 43px;
+		margin-top: 46px;
+		grid-column-gap: 52px;
 	}
 	.top-menu ul li a {
 		color: #ffffff;
