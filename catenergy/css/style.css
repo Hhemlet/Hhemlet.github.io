@@ -1,0 +1,126 @@
+
+body {
+	margin: 0 auto;
+	min-width: 320px;
+	max-width: 1440px;
+	background-color: #fff;
+}
+.top-bar {
+	display: flex;
+	height: 65px;
+	border-bottom: 1px solid #e6e6e6;
+	padding-left: 20px;
+	padding-right: 20px;
+	justify-content: space-between;
+	line-height: 64px;
+}
+.logo {
+	display: block;
+	background-image: url(../img/logo-mobile.svg);
+	background-size: cover;
+	width: 35px;
+	height: 40px;
+	margin-top: 9px; 
+}
+.catenergy-mobile {
+	background-image: url(../img/catenergy-mobile.svg);
+	background-size: cover;
+	width: 110px;
+	height: 20px;
+	margin-top: 20px; 
+}
+.mobile-menu {
+	display: block;
+	width: 24px;
+	height: 21px;
+	background-image: url(../img/menu-mobile.svg);
+	background-size: cover;
+	margin-top: 20px;
+}
+.top-menu {
+	display: none;
+}
+.top-menu ul {
+	display: grid;
+	list-style: none;
+	margin-top: 14px;
+	padding-right: 30px;
+	float: right;
+}
+.top-menu ul li {
+	height: 65px;
+	border-bottom: 1px solid #e6e6e6;
+	text-align: center;
+	line-height: 65px;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	}
+	.top-menu ul li a {
+		text-decoration: none;
+		outline: none;
+		color: #000000;
+		padding-bottom: 10px;
+	}
+	.top-menu ul li a:active {
+		border-bottom: 2px solid #68b738;
+	}
+@media (min-width: 768px) {
+	.catenergy-mobile {
+		display: none;
+	}
+	.mobile-menu {
+		display: none;
+	}
+	.top-menu {
+	display: block;
+	}
+	.main-menu {
+	display: grid;
+	grid-template-columns: 245px 1fr;
+	}
+	.logo {
+	background-image: url(../img/logo-tablet.svg);
+	width: 177px;
+	height: 56px;
+	margin-top: 25px; 
+	}
+	.top-bar {
+	border-bottom: none;
+	height: 90px;
+	padding-left: 30px;
+	}
+	.top-menu ul {
+		grid-template-columns: 70px 1fr 1fr;
+		grid-auto-columns: min-content;
+		grid-column-gap: 20px;
+	}
+	.top-menu ul li {
+		height: 80px;
+		border-bottom: none;
+		line-height: 80px;
+		font-size: 18px;
+	}
+}
+@media (min-width: 1024px) {
+	.logo {
+	background-image: url(../img/logo-desktop.svg);
+	width: 205px;
+	height: 56px;
+	margin-top: 55px; 
+	}
+	.top-menu ul {
+		padding-right: 110px;
+		margin-top: 43px;
+	}
+	.top-menu ul li a {
+		color: #ffffff;
+	}
+	.first-screen {
+		background-image: url(../img/bg-index-desktop.jpg);
+		height: 696px;
+		background-position: right;
+		background-repeat: no-repeat;
+	}
+
+}
