@@ -33,9 +33,11 @@ body {
 	display: block;
 	width: 24px;
 	height: 24px;
-	background-image: url(../img/menu-mobile.svg);
 	background-size: cover;
 	margin-top: 20px;
+}
+.mobile-menu-open {
+	background-image: url(../img/menu-mobile.svg);
 }
 .top-menu {
 	display: none;
