@@ -1,0 +1,10 @@
+.slider {
+	margin: 0 auto;
+	width: 900px;
+}
+.hidden {
+	display: none;
+}
+.btn-block {
+	text-align: center;
+}
