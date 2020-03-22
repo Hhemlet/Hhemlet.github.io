@@ -1,10 +1,18 @@
 .slider {
 	margin: 0 auto;
-	width: 900px;
+	width: 800px;
+	height: 600px;
+}
+.slider img {
+	height: 580px;
 }
 .hidden {
 	display: none;
 }
 .btn-block {
 	text-align: center;
+}
+.btn {
+	width: 70px;
+	height: 30px;
 }
