@@ -48,6 +48,7 @@ body {
 	margin: 0 auto;
 	font-size: 80px;
 	font-family: RougeScript-Regular;
+	padding-left: 3px;
 	font-weight: 400;
 	text-align: center;
 	background-image: linear-gradient(116deg,#85f4ff,#d3f2f5);
