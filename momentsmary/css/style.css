@@ -134,6 +134,21 @@ body {
 	left: 255px;
 	transform: translate(-50%, -50%);
 }
+.counter {
+	padding: 1px 5px;
+	line-height: 22px;
+	background: #000000;
+	color: #ffffff;
+	position: absolute;
+    bottom: 1%;
+    left: 50%;
+    font-size: 22px;
+    font-family: RougeScript-Regular;
+    transform: translateX(-50%);
+    text-align: center;
+    opacity: 0.7;
+    border-radius: 4px;
+}
 @media (max-width: 740px) {
 	.slider {
 		width: 400px;

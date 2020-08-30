@@ -1,7 +1,11 @@
 const next = document.querySelector(".next");
 const prev = document.querySelector(".prev");
+let current = document.querySelector(".current");
+let total = document.querySelector(".total");
 let image = document.getElementsByTagName("img");
 let currentElementSlider = 0;
+
+current.innerHTML = 1;
 
 prev.disabled = true;
 
@@ -17,8 +21,8 @@ next.addEventListener("click", function() {
 		for (let i = 0; i < image.length; i++) {
 			image[i].classList.add("hidden");
 			image[currentElementSlider].classList.remove("hidden");
-
 	};
+		current.innerHTML = currentElementSlider + 1;
 
 });
 	
@@ -36,6 +40,9 @@ prev.addEventListener("click", function() {
 			image[i].classList.add("hidden");
 			image[currentElementSlider].classList.remove("hidden");
 	};
+		current.innerHTML = currentElementSlider + 1;
 
 	
 });
+
+total.innerHTML = image.length
