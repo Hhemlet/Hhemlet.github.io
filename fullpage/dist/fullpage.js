@@ -3465,6 +3465,8 @@
                 return;
             }
 
+            console.log(hello)
+
             // Disable mutually exclusive settings
             if (options.continuousVertical &&
                 (options.loopTop || options.loopBottom)) {
