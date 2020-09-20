@@ -12,7 +12,7 @@ $(document).ready(function(){
   $(".catalog-slider").slick({
   	infinite: true,
   	slidesToShow: 4,
-  	slidesToScroll: 1,
+  	slidesToScroll: 2,
 
   });
 });
