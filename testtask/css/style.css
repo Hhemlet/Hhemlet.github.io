@@ -104,8 +104,14 @@ h4 {
 	position: absolute;
 	left: 50%;
 	top: 56px;
+	display: block;
 	transform: translate(-50%, -50%);
 }
+.logo img {
+	width: 213px;
+	height: 100%;
+	object-fit: cover;
+	}
 .btn-header-wrap {
 	display: flex;
 	padding-right: 20px;
@@ -445,17 +451,162 @@ h4 {
 	margin-bottom: 0px;
 }
 
-@media (max-width: 1023px) and (min-width: 768px) {
-
-	}
 @media (max-width: 1200px) {
-	.container {
-		width: 100vw;
-	}
+.container {
+	width: 100vw;
+}
+.footer-menu-wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
 }
 
-@media (max-width: 767px) {
-	.list-excursions {
-		grid-template-columns: 1fr;
-	}
+@media (max-width: 1199px) {
+.top-header::before {	
+	width:450px;
 }
+.top-header::after {
+	width: 450px;
+}
+.btn-header {
+	font-size: 2.5em;
+	line-height: 25px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.logo img {
+	width: 150px;
+	height: 100%;
+	}
+.tel-number {
+	font-size: 3em;
+}
+.number-desc {
+	font-size: 2em;
+}
+.top-nav-link-el::before {
+	display: none;
+}
+.cars-footer {
+	margin-right: 60px;
+}
+.service-footer {
+	margin-right: 55px;
+}
+.footer-contact::before {
+	display: none;
+}
+}
+@media (max-width: 1023px) {
+.top-header::before {	
+	width:350px;
+}
+.top-header::after {
+	width: 350px;
+}
+.btn-header {
+	font-size: 2.5em;
+	line-height: 25px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.logo img {
+	width: 120px;
+	height: 100%;
+	}
+.tel-number {
+	font-size: 3em;
+}
+.number-desc {
+	font-size: 2em;
+}
+.phone-header {
+	margin-right: 20px;
+}
+.top-nav-link {
+	font-size: 3em;
+}
+.breadcrumbs-list-link {
+	font-size: 2em;
+}
+.footer-menu-wrap {
+	justify-content: flex-start;
+}
+.cars-footer {
+	margin-right: 0px;
+	width: 50%;
+}
+.service-footer {
+	margin-right: 0px;
+	width: 50%;
+}
+.footer-list-cars {
+	border-right: none;
+}
+.footer-list-service {
+	border-right: none;
+}
+.about-footer {
+	width: 50%;
+}
+.footer-contact {
+	margin-left: 0px;
+}
+.footer-list-link {
+	font-size: 3em;
+}
+.footer-contact {
+	margin-right: 10px;
+}
+.licence {
+	font-size: 3em;
+}
+}
+@media (max-width: 767px) {
+.top-header::before {	
+	display: none;
+}
+.top-header::after {
+	display: none;
+}
+.phone-header-wrap {
+	flex-direction: column;
+}
+.btn-header-wrap {
+	flex-direction: column;
+}
+.list-excursions {
+	grid-template-columns: 1fr;
+}
+.footer-list-cars {
+	padding-right: 0px;
+}
+.footer-list-service {
+	padding-right: 0px;
+}
+.logo img {
+	width: 70px;
+}
+.main-nav {
+	display: none;
+}
+}
+
+@media (max-width: 413px) {
+.footer-menu-wrap {
+	justify-content: center;
+}
+.cars-footer {
+	width: 100%;
+	margin-left: 25px;
+}
+.service-footer {
+	width: 100%;
+	margin-left: 25px;
+}
+.about-footer {
+	width: 100%;
+	margin-left: 25px;
+}
+}
+
