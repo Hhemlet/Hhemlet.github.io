@@ -681,12 +681,16 @@ h4 {
 .menu-hidden {
 	display: none;
 }
+.fixed {
+	position: fixed;
+}
 .nav-wrap {
 	position: relative;
 }
 .top-nav {
 	flex-direction: column;
 	justify-content: space-around;
+	overflow: auto;
 	align-items: center;
 	position: absolute;
 	top: -90px;
