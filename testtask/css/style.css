@@ -686,6 +686,7 @@ h4 {
 }
 .top-nav {
 	flex-direction: column;
+	justify-content: space-around;
 	align-items: center;
 	position: absolute;
 	top: -90px;
