@@ -319,7 +319,7 @@ h4 {
 }
 /*  Footer   */
 .main-footer {
-	background-image: url(../img/footer-bg.jpg), linear-gradient(90deg,#ffffff,#d0aa8c);;
+	background-image: linear-gradient(180deg,transparent,#000000), url(../img/footer-bg.jpg);
 	background-size: cover;
 	margin-top: 7px;
 }
