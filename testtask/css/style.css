@@ -575,10 +575,10 @@ h4 {
 	display: none;
 }
 .logo {
-	top: -10px;
+	top: -15px;
 }
 .logo img {
-	width: 70px;
+	width: 90px;
 }
 .phone-header-wrap {
 	flex-direction: column;
