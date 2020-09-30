@@ -504,8 +504,10 @@ h3 {
 }
 .single-slide {
 	position: relative;
-	background-image: url(../img/bg-slide.jpg);
-	background-position: center;
+	background-image: url(../img/in.png);
+	background-repeat: no-repeat;
+	background-position-x: 800px;
+    background-size: contain;
 }
 .slider-img {
 	position: absolute;
