@@ -4,6 +4,21 @@ body {
 	font-size: 16px;
 	font-family: 'Montserrat', sans-serif;
 }
+@media (max-width: 1024px) {
+body {
+	font-size: 14px;
+}
+}
+@media (max-width: 768px) {
+	body {
+		font-size: 12px;
+	}
+}
+@media (max-width: 768px) {
+	body {
+		font-size: 10px;
+	}
+}
 h1 {
 	font-size: 0px;
 }
@@ -219,6 +234,7 @@ header {
 	font-size: 1.5em;
 	letter-spacing: 2px;
 	color: aliceblue;
+	text-align: end;
 	margin-top: 15px;
 	margin-bottom: 15px;
 	font-weight: 200;
