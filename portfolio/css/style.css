@@ -14,7 +14,7 @@ body {
 		font-size: 12px;
 	}
 }
-@media (max-width: 768px) {
+@media (max-width: 600px) {
 	body {
 		font-size: 10px;
 	}
@@ -209,6 +209,16 @@ header {
 	height: auto;
 	display: block;
 }
+@media (max-width: 1024px) {
+	.main-page-img {
+		width: 90%;
+	}
+	}
+@media (max-width: 600px) {
+	.main-page-img {
+		width: 110%;
+	}
+	}
 .main-page-desc {
 	display: grid;
 	grid-row-start: 2;
