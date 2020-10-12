@@ -1,4 +1,3 @@
-window.onload = function() {
 
 new fullpage('#fullpage', {
 	//options here
@@ -21,5 +20,3 @@ closeBtn.addEventListener("click", function () {
 
 });
 
-
-};
