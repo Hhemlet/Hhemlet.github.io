@@ -1,4 +1,3 @@
-window.onload = function() {
 
 new fullpage('#fullpage', {
 	//options here
@@ -24,5 +23,3 @@ closeBtn.addEventListener("click", function () {
     menu.classList.toggle("menu-hidden");
 });
 
-
-};
