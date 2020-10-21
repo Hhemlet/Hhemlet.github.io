@@ -406,7 +406,7 @@ header {
 	.we-foto {
 		margin-bottom: 15px;
 		grid-template-columns: 45% 15px 10px 15px 45%;
-		grid-template-rows: 15px 1fr 5% 5% 15px 1fr;
+		grid-template-rows: 15px 1fr 5% 5% 1fr 15px;
 	}
 	.mary-foto {
 		grid-row-start: 1;
@@ -431,12 +431,13 @@ header {
 		margin-right: 10px;
 	}
 	.alex-desc {
-		grid-row-start: 6;
+		grid-row-start: 5;
 		grid-column-start: 1;
-		grid-row-end: 7;
+		grid-row-end: 6;
 		grid-column-end: 5;
 		padding: 10px;
 		margin-left: 10px;
+		margin-top: auto;
 	}
 }
 /*  Portfolio  */
