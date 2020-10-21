@@ -270,14 +270,45 @@ header {
 	}
   }
 
+/* What do we do*/
+.what-do {
+	text-align: center;
+	grid-template-rows: 120px 1fr;
+	background: linear-gradient(to right top, #000, #000 50%, #0F2453 75%, #0f2473 90%);
+	justify-content: center;
+	padding-bottom: 20px;
+}
+.what-do-wrap {
+	display: grid;
+	width: 1024px;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+}
+.what-do-big {
+	grid-column: span 2;
+	background-color: aliceblue;
+	padding: 20px;
+	text-align: left;
+	-webkit-box-shadow: 0px 0px 40px 20px rgb(139, 142, 182, 0.2);
+	-moz-box-shadow: 0px 0px 40px 20px rgb(139, 142, 182, 0.2);
+	box-shadow: 0px 0px 40px 20px rgb(139, 142, 182, 0.2);
+}
+.what-do-small {
+	grid-column: span 1;
+	background-color: aliceblue;
+	-webkit-box-shadow: 0px 0px 40px 20px rgb(139, 142, 182, 0.2);
+	-moz-box-shadow: 0px 0px 40px 20px rgb(139, 142, 182, 0.2);
+	box-shadow: 0px 0px 40px 20px rgb(139, 142, 182, 0.2);
+}
+
 /* About */
 
 .about-us {
-	background-color: hsl(236, 23%, 63%);
+	background-color: rgb(139, 142, 182);
 	grid-template-rows: 120px 1fr;
-}
-.about-us h3 {
 	text-align: center;
+    justify-content: center;
 }
 .about-us-desc p {
 	grid-row-start: 2;
@@ -318,6 +349,7 @@ header {
 	z-index: 1;
 	padding: 20px;
 	height: max-content;
+	text-align: left;
 }
 .alex-foto {
 	grid-row-start: 4;
@@ -358,13 +390,46 @@ header {
 	font-weight: 200;
 	margin: 0;
 }
-/* What do we do*/
-.what-do {
-	text-align: center;
-	background: linear-gradient(to right top, #000, #000 50%, #0F2453 75%, #0f2473 90%);
+@media (max-width: 576px) {
+	.about-us {
+		grid-template-rows: 90px 1fr;
+	}
+	.we-foto {
+		margin-bottom: 15px;
+		grid-template-columns: 45% 15px 10px 15px 45%;
+		grid-template-rows: 15px 1fr 5% 5% 10px 1fr;
+	}
+	.mary-foto {
+		grid-row-start: 1;
+		grid-column-start: 1;
+		grid-row-end: 5;
+		grid-column-end: 3;
+		margin-left: 10px;
+	}
+	.mary-desc {
+		grid-row-start: 2;
+		grid-column-start: 2;
+		grid-row-end: 3;
+		grid-column-end: 6;
+		padding: 10px;
+		margin-right: 10px;
+	}
+	.alex-foto {
+		grid-row-start: 3;
+		grid-column-start: 4;
+		grid-row-end: 7;
+		grid-column-end: 6;
+		margin-right: 10px;
+	}
+	.alex-desc {
+		grid-row-start: 6;
+		grid-column-start: 1;
+		grid-row-end: 7;
+		grid-column-end: 5;
+		padding: 10px;
+		margin-left: 10px;
+	}
 }
-
-
 /*  Portfolio  */
 .portfolio {
 	background: #000; 
