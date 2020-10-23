@@ -3,6 +3,11 @@
 	font-display: fallback;
     src: url(../fonts/Montserrat-ExtraLight.ttf);
 }
+@font-face {
+	font-family: Montserrat-Light;
+	font-display: fallback;
+    src: url(../fonts/Montserrat-Light.ttf);
+}
 
 body {
 	margin: 0;
@@ -42,6 +47,14 @@ h3 {
 	text-transform: uppercase;
 	margin-top: 30px;
 	margin-bottom: 0px;
+}
+@media (max-width: 375px) {
+	h3 {
+		font-size: 2.5em;
+		text-align: left;
+		margin-left: 10%;
+	}
+
 }
 
 /* main */
@@ -293,24 +306,71 @@ header {
 	grid-template-rows: 1fr 1fr;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 20px;
+	text-align: left;
+}
+.what-do-block {
+	background-color: aliceblue;
+	padding: 20px;
+	-webkit-box-shadow: 0px 0px 40px 20px rgb(139, 142, 182, 0.2);
+	-moz-box-shadow: 0px 0px 40px 20px rgb(139, 142, 182, 0.2);
+	box-shadow: 0px 0px 40px 20px rgb(139, 142, 182, 0.2);
+}
+.what-do-block p {
+	position: relative;
+	padding-bottom: 15px;
 }
 .what-do-big {
 	grid-column: span 2;
-	background-color: aliceblue;
-	padding: 20px;
-	text-align: left;
-	-webkit-box-shadow: 0px 0px 40px 20px rgb(139, 142, 182, 0.2);
-	-moz-box-shadow: 0px 0px 40px 20px rgb(139, 142, 182, 0.2);
-	box-shadow: 0px 0px 40px 20px rgb(139, 142, 182, 0.2);
 }
 .what-do-small {
 	grid-column: span 1;
-	background-color: aliceblue;
-	-webkit-box-shadow: 0px 0px 40px 20px rgb(139, 142, 182, 0.2);
-	-moz-box-shadow: 0px 0px 40px 20px rgb(139, 142, 182, 0.2);
-	box-shadow: 0px 0px 40px 20px rgb(139, 142, 182, 0.2);
 }
-
+.what-do-block-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 100%;
+	font-family: Montserrat-Light;
+	font-size: 1.2em;
+}
+.what-do-block-list li {
+	line-height: 35px;
+	position: relative;
+}
+.what-do-block-list-decor {
+	width: 100%;
+	height: 2px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: linear-gradient(90deg, #e66465, transparent 80%);
+}
+@media (max-width: 576px) {
+	.what-do {
+		justify-content: stretch;
+		grid-template-rows: 90px 1fr;
+	}
+	.what-do-big {
+		display: none;
+	}
+	.what-do-wrap {
+		width: 100%;
+		grid-template-columns: 100%;
+	}
+	.what-do-block {
+		padding: 10px;
+	}
+	.what-do-small {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	.what-do-block-list li {
+		line-height: 28px;
+	}
+}
 /* About */
 
 .about-us {
