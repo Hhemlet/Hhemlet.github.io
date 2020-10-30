@@ -186,7 +186,7 @@ header {
 	display: flex;
 	justify-content: space-around;
 	flex-direction: column;
-	height: 100%;
+	height: calc(100% - 90px);
 	list-style: none;
 	padding: 0px;
 	margin: 0px;
