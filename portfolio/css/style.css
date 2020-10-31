@@ -181,10 +181,13 @@ header {
 		height: calc(100vh - 90px);
 		background-color:rgba(15, 36, 83, 0.9);
 	}
+	.main-nav {
+		height: auto;
+	}
 }
  .main-nav {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-direction: column;
 	height: 100%;
 	list-style: none;
