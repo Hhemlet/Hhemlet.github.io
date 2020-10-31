@@ -173,6 +173,15 @@ header {
 		width: 50%;
 	}
 }
+ .main-nav {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	height: 100%;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
 @media (max-width: 576px) {
 	.main-page-nav {
 		top: 90px;
@@ -184,15 +193,6 @@ header {
 	.main-nav {
 		height: auto;
 	}
-}
- .main-nav {
-	display: flex;
-	justify-content: space-around;
-	flex-direction: column;
-	height: 100%;
-	list-style: none;
-	padding: 0px;
-	margin: 0px;
 }
 .unvisible {
 	display: none;
