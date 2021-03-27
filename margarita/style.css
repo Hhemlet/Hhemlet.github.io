@@ -106,6 +106,12 @@ main {
     background-color: #2a0b2b;
     box-shadow: 0 0 10px #e62de3;
 }
+@media (max-width: 767px) {
+    .bolt {
+        width: 14px;
+        height: 14px;
+    }
+}
 .bolt-left-top {
     left: 0.3em;
     top: 0.3em;
