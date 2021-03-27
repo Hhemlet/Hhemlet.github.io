@@ -1,8 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    min-height: -webkit-fill-available;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
     margin: 0;
     padding: 0;
     background-image: url(img/jon-moore-e0vtcyNV_QA-unsplash.jpg);
@@ -170,4 +170,9 @@ audio {
     height: 50px;
     width: 185px;
     opacity: 0.6;
+}
+@media (max-width: 767px) {
+    audio {
+       left: 10px;
+    }
 }
