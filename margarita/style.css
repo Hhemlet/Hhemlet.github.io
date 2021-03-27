@@ -43,6 +43,8 @@ main {
 @media (max-width: 767px) {
     .glass-block {
         font-size: 5em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
     }
 }
 .anim {
@@ -60,7 +62,7 @@ main {
 				 0 0 10px #e62de3,
 				 0 0 15px #e62de3,
 				 0 0 30px #e62de3,
-				 0 0 70px #e62de3;
+				 0 0 70px #f351c7;
 	}
 	10% {
 		text-shadow: 0 0 40px #e62de3,
@@ -74,14 +76,14 @@ main {
 				 0 0 80px #e62de3,
 				 0 0 90px #e62de3,
 				 0 0 100px #e62de3,
-				 0 0 180px #e62de3;
+				 0 0 180px #f351c7;
 	}
 	45% {
 		text-shadow: 0 0 30px #e62de3,
 				 0 0 50px #e62de3,
 				 0 0 70px #e62de3,
 				 0 0 80px #e62de3,
-				 0 0 140px #e62de3;
+				 0 0 140px #f351c7;
 	}
 	85% {
 		text-shadow: 0 0 50px #e62de3,
